@@ -1,0 +1,38 @@
+:root {
+            --primary: #2c7744;
+            --secondary: #f8f1e9;
+            --accent: #e67e22;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8753ac4b-6c5c-4141-87d4-0bb5f8404679.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .process-step:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-card:hover {
+            transform: scale(1.03);
+        }
+        
+        .gradient-btn {
+            background: linear-gradient(to right, var(--primary), var(--accent));
+        }
+        
+        #backToTop {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
